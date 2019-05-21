@@ -1,0 +1,6 @@
+<launch>
+  <node name="lane_detection" pkg="lane_detection" type="lane_detection" output="screen">
+    	<param name="CameraSub" value="/Camera_Front/out_video" />
+	
+  </node>
+</launch>
